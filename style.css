@@ -11,6 +11,7 @@ body, html {
   overflow: hidden;
   background-color: grey;
   text-align: center;
+  border: 2px solid darkgrey;
 }
 
 .navbar li {
@@ -158,4 +159,43 @@ body, html {
 
 .animated {
   animation: animated-font 0.5s infinite;
+}
+
+/*button updatelog */
+
+.floating-screen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 0px 20px 0px 20px;
+  border: 1px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: none;
+  color: black;
+  background-color: #f1f1f1;
+}
+
+.floating-screen h1 {
+  font-family: cursive;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.floating-screen p {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#toggleButton {
+  border: none;
+  background-color: grey;
+  color: white;
+}
+
+#toggleButton:hover {
+  background-color: #f1f1f1;
+  color: black;
 }
