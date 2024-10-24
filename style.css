@@ -193,9 +193,10 @@ body, html {
   border: none;
   background-color: grey;
   color: white;
+  padding :  17px 17px 17px 17px;
 }
 
 #toggleButton:hover {
-  background-color: #f1f1f1;
+  background-color: #ddd;
   color: black;
 }
